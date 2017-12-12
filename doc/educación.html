@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.1, user-sacalable=no">
+  </head>
+  <body>
+    <img src="../svg/logo.svg" alt="logo Daniel Londoño" height="150" width="288">
+    <header>
+      <h1>Hoja de Vida</h1>
+      <h2>Daniel Londoño</h2>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="#">Educación</a></li>
+        <li><a href="../doc/experiencia.html">Experiencia</a></li>
+      </ul>
+    </nav>
+    <section id="educación">
+      <h3>Educación</h3>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>lugar</th>
+            <th>¿Culminó?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2003</td>
+            <td>C.N.M "Rio Coca"</td>
+            <td>San Sebastían del Coca</td>
+            <td>si</td>
+          </tr>
+          <tr>
+            <td>2010</td>
+            <td>ITSO</td>
+            <td>La joya de los sachas</td>
+            <td>no</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="agregar_Educación">
+      <h3>Agregar Educación</h3>
+      <form>
+        <label for="año">Año: </label>
+          <select>
+            <option>2000</option>
+            <option>2001</option>
+            <option>2002</option>
+            <option>2003</option>
+            <option>2004</option>
+            <option>2005</option>
+            <option>2006</option>
+            <option>2007</option>
+            <option>2008</option>
+            <option>2009</option>
+            <option>2010</option>
+            <option>2011</option>
+            <option>2012</option>
+            <option>2013</option>
+            <option>2014</option>
+            <option>2015</option>
+            <option>2016</option>
+            <option>2017</option>
+          </select>
+        <br>
+        <br>
+        <label for="institución">Institución: </label>
+          <input type="text" maxlength="50" required alt="este campo es requerido">
+        <br>
+        <br>
+        <label for="lugar">Lugar</label>
+          <textarea name="lugar" rows="6" cols="35"></textarea>
+        <br>
+        <label for="concluir"><strong>¿Culminó?: </strong></label>
+          <input type="radio" name="concluir" value="Si" checked> Si
+          <input type="radio" name="concluir" value="No"> No
+        <br>
+        <br>
+        <input type="submit" value="enviar">
+      </form>
+    </section>
+    <footer>
+      <p>@Derechos Reservados.</p>
+      <ul>
+        <li><strong>Email: </strong>dzaliaspro@gmail.com</li>
+        <li><strong>Teléfono: </strong>0990518974</li>
+        <li><strong>Dirección: </strong>calles Alejandro la vaca &amp; Aucas. casa (E2-15). La Joya de los sachas. Orellana. Ecuador.</li>
+      </ul>
+    </footer>
+  </body>
+</html>
